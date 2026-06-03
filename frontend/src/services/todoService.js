@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for backend API
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://crud-backend-rfbx.onrender.com/api/todos';
 
 // Create axios instance with default config
 const api = axios.create({
